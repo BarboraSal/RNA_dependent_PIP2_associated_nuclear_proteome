@@ -8,7 +8,6 @@
 library(openxlsx)
 library(tidyverse)
 library(ggridges)
-# library(readxl)
 library(pheatmap)
 
 ########################################################################
