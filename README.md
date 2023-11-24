@@ -1,13 +1,23 @@
 # RNA_dependent_PIP2_associated_nuclear_proteome
-The code and analysis files associated with a manuscript "Molecular basis for the interaction of intrinsically disordered proteins with nuclear PIP2 compartments" by Sztacho M., Cervenka, J., et al. 
+The code and analysis files associated with a manuscript "The RNA-dependent interaction of phosphatidylinositol 4,5-bisphosphate with intrinsically disordered proteins contributes to nuclear compartmentalization" by Sztacho M., Cervenka, J., Salovska, B., et al. 
 
 ## R version
-The code was built on R version XY. 
+The code was built on R version 4.3.1. 
 
 ## Input datasets
-The datasets needed for the code to be executed are contained in the XY folder. 
+An example FASTA sequence database, ScanProsite motif table, and an example ouput from Analysis 1 are provided in the Example_data folder. 
 
 ## R files description 
+### Analysis 1
 
-### Skript 1
-### Skript 2
+The first analysis takes the input FASTA sequence database to retrieve intrinsincally-disordered regions (IDR) in proteins from the D2P2 database (https://d2p2.pro). 
+
+The IDRs are then matched to three K/R rich sequence motifs identified by the ScanProsite tool (https://prosite.expasy.org/scanprosite). 
+
+The K/R motif-matched IDRs are then analyzed in terms of their physicochemical properties (pI, GRAVY score) and length. 
+
+### Analysis 2
+
+The second analysis takes the input FASTA sequence database to retrieve intrinsincally-disordered regions (IDR) in proteins from the D2P2 database (https://d2p2.pro). 
+
+The IDRs are then analyzed in terms of their physicochemical properties (pI, GRAVY score) and length. 
