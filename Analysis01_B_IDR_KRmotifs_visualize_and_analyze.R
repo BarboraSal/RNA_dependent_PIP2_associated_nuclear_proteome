@@ -23,8 +23,7 @@ output_file_name <- paste(Sys.Date(), analysis_label, sep = "_")
 ########################################################################
 
 # setup path to working directory
-setwd('c:/Users/user/Documents/Barbora 2021/Projects_OLD/13_MSz_JCer_Script/_git/analysis_01/Part02_data/input')
-list.files()
+setwd('c:/path/to/wd')
 
 # get all filenames
 filenames <- list.files(pattern = ".*_results\\.xlsx$")
