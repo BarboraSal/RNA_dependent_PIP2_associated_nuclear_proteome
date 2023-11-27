@@ -12,8 +12,7 @@ library(openxlsx)
 
 ########################################################################
 # Setup path to working directory
-wd <- "c:/path/to/wd" 
-setwd(wd)
+setwd("c:/path/to/wd")
 
 ########################################################################
 # function to process the PTM sites files downloaded from PSPdb
@@ -238,8 +237,7 @@ names(files_processed) <- names
 # Export results
 ########################################################################
 # working directory
-wd <- "c:/path/to/wd" 
-setwd(wd)
+setwd("c:/path/to/wd")
 
 # save Rdata with the matched files
 save(files_processed, file = "All_files_processed.Rdata")
