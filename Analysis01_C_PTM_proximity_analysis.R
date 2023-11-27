@@ -12,7 +12,7 @@ library(openxlsx)
 
 ########################################################################
 # Setup path to working directory
-wd <- "c:/Users/user/Documents/Barbora 2021/Projects_OLD/13_MSz_JCer_Script/_git/analysis_01/Part03_PTMproximity/input" 
+wd <- "c:/path/to/wd" 
 setwd(wd)
 
 ########################################################################
@@ -238,7 +238,7 @@ names(files_processed) <- names
 # Export results
 ########################################################################
 # working directory
-wd <- "c:/Users/user/Documents/Barbora 2021/Projects_OLD/13_MSz_JCer_Script/_git/analysis_01/Part03_PTMproximity/output" 
+wd <- "c:/path/to/wd" 
 setwd(wd)
 
 # save Rdata with the matched files
