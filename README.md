@@ -16,7 +16,7 @@ The IDRs are then matched to three K/R rich sequence motifs identified by the Sc
 
 The K/R motif-matched IDRs are then analyzed in terms of their physicochemical properties (pI, GRAVY score) and length.
 
-PTMsite information was retrived from the PhosphoSite Plus database (https://www.phosphosite.org/staticDownloads) and matched to the IDRs. 
+The Modification site datasets were downloaded from the PhosphoSite Plus database (https://www.phosphosite.org/homeAction) and matched to the IDRs. 
 
 ### Analysis 2
 
