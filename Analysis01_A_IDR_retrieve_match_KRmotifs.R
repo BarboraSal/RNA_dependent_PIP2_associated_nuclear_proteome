@@ -16,6 +16,7 @@ library("seqinr")
 ########################################################################
 # Setup path to working directory
 setwd('c:/path/to/wd')
+setwd(wd)
 
 ########################################################################
 # Define analysis parameters
