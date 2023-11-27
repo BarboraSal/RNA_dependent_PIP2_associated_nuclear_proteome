@@ -15,11 +15,10 @@ library("seqinr")
 
 ########################################################################
 # Setup path to working directory
-setwd('c:/Users/user/Documents/Barbora 2021/Projects_OLD/13_MSz_JCer_Script/_git/analysis_01')
-list.files()
+setwd('c:/path/to/wd')
 
 ########################################################################
-# DEFINE ANALYSIS PARAMETERS
+# Define analysis parameters
 ########################################################################
 
 # define IDR length that is going to be used for minimum length filtering as length >= idr_length
@@ -29,7 +28,7 @@ min_idr_length <- 20
 min_predictor <- 3
 
 ########################################################################
-# DEFINE INPUT FILES
+# Define input files
 ########################################################################
 
 # FASTA sequence database containing proteins of interest
@@ -54,7 +53,7 @@ motif_table <- read.delim(file = "example_motif.txt", sep = "\t", header = T,  s
 motif_table$uniprot <- gsub("sp\\|(\\w.*)\\|.*", "\\1", motif_table$id )
 
 ########################################################################
-# RETRIVE PREDICTIONS FROM D2P2
+# Retrieve predictions from D2P2
 ########################################################################
 
 # function to process the response from D2P2
@@ -178,7 +177,7 @@ for (i in 1:nrow(motif_table_filtered)) {
   # fetch the prediction data for the current UniProt ID
   prediction_selection <- predictions[[uniprot_id]]
   
-  # check overlap of motif region with each predicted region using a vectorized operation
+  # check overlap of motif region with each predicted region
   overlap <- (motif_selection$start_pos >= prediction_selection$start_pos) & 
     (motif_selection$end_pos <= prediction_selection$end_pos)
   
@@ -245,8 +244,8 @@ values <- c(
   'Median GRAVY of the IDRs matched to KR motifs' = median(motif_table_filtered_2$hydrophobicity_sequence, na.rm = TRUE)
 )
 
-# create summary dataframe
-summary <- tibble(
+# create a summary dataframe
+summary <- data.frame(
   parameter = names(values),
   value = unname(values),
   legend = names(values)
