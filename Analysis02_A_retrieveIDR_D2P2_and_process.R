@@ -16,8 +16,7 @@ library("seqinr")
 
 ########################################################################
 # Setup path to working directory
-setwd('c:/Users/user/Documents/Barbora 2021/Projects_OLD/13_MSz_JCer_Script/_git/analysis_02')
-list.files()
+setwd('c:/path/to/wd')
 
 ########################################################################
 # DEFINE ANALYSIS PARAMETERS
