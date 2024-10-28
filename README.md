@@ -24,6 +24,10 @@ The second analysis takes the input FASTA sequence database to retrieve intrinsi
 
 The IDRs are then analyzed in terms of their physicochemical properties (pI, GRAVY score) and length. 
 
+## Manuscript data
+
+The folder contains all data that were used to generate the figures presented in the manuscript. 
+
 ## Further information
 
 The analysis is described in the Methods section of the manuscript. 
