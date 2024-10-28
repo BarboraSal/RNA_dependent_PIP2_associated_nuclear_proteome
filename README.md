@@ -1,5 +1,5 @@
 # RNA_dependent_PIP2_associated_nuclear_proteome
-The code and analysis files associated with a manuscript "The RNA-dependent interaction of phosphatidylinositol 4,5-bisphosphate with intrinsically disordered proteins contributes to nuclear compartmentalization" by Sztacho M., Cervenka, J., Salovska, B., et al. 
+The code and analysis files associated with the manuscript "The RNA-dependent association of phosphatidylinositol 4,5-bisphosphate with intrinsically disordered proteins contribute to nuclear compartmentalization" by Sztacho M., Cervenka, J., Salovska, B., et al. published in PLOS Genetics. 
 
 ## R version
 The code was built on R version 4.3.1. 
