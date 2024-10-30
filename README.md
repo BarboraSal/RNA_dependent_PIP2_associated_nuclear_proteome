@@ -26,7 +26,7 @@ The IDRs are then analyzed in terms of their physicochemical properties (pI, GRA
 
 ## Manuscript data
 
-The folder contains all data that were used to generate the figures presented in the manuscript. 
+The folder contains all data that were used to generate figures presented in the manuscript. 
 
 ## Further information
 
