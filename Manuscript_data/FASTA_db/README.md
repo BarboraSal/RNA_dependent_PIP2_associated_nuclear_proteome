@@ -1,1 +1,8 @@
+# RNA_dependent_PIP2_associated_nuclear_proteome
+
+This folder contains the FASTA sequence databases that were used to perform analysis in the manuscript "The RNA-dependent association of phosphatidylinositol 4,5-bisphosphate with intrinsically disordered proteins contribute to nuclear compartmentalization" by Sztacho M., Cervenka, J., Salovska, B., et al. published in PLOS Genetics. 
+
+## Data preparation
+
+Majority protein IDs from significant protein groups (see Raw data processing) were mapped to the UniProtKB database (Homo sapiens, Swiss-Prot, reference proteome UP000005640, release 2022_01) and their canonical protein sequences were obtained. Seven datasets were used for further analyses: i) proteins associated with PIP2 in higher-order RNA-dependent positive manner (called RDPA proteins, n = 183); ii) proteins quantifiable in at least two replicates of nuclear fraction, but not in cytosolic fraction, with RDPA proteins added (called Nucleo-specific proteins, n = 848); iii) proteins quantifiable in at least two replicates of nuclear fraction, with RDPA proteins added (called Nuclear fraction proteins, n = 3,655); iv) proteins quantifiable in at least two replicates of cytosolic fraction, but not in nuclear fraction (called Cytosol-specific proteins, n = 428); v) proteins quantifiable in at least two replicates of cytosolic fraction (called Cytosolic fraction proteins, n = 3,379); vi) all proteins quantifiable in at least two replicates of cytosolic or nuclear fraction, with RDPA proteins added (called Total cell proteome, n = 4,082) and vii) reference human proteome from UniProtKB with one protein sequence per gene (called Reference proteome, n = 20,577). 
 
