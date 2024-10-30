@@ -7,6 +7,10 @@ The code was built on R version 4.3.1.
 ## Input datasets
 An example FASTA sequence database, ScanProsite motif table, and an example ouput from Analysis 1 are provided in the Example_data folder. 
 
+## Manuscript data
+
+The folder contains all data that were used to generate figures presented in the manuscript. 
+
 ## R files description 
 ### Analysis 1
 
@@ -23,10 +27,6 @@ The Modification site datasets were downloaded from the PhosphoSite Plus databas
 The second analysis takes the input FASTA sequence database to retrieve intrinsincally disordered regions (IDRs) in proteins from the D2P2 database (https://d2p2.pro). 
 
 The IDRs are then analyzed in terms of their physicochemical properties (pI, GRAVY score) and length. 
-
-## Manuscript data
-
-The folder contains all data that were used to generate figures presented in the manuscript. 
 
 ## Further information
 
